@@ -12,14 +12,14 @@ function arrow(){
 }
 
 document.querySelector('.reviews__left').addEventListener('click',function(){
-	position-=600;
-	if(position<0)position=2400;
+	position-=800;
+	if(position<0)position=3200;
 	arrow();
 });
 
 document.querySelector('.reviews__right').addEventListener('click',function(){
-	position+=600;
-	if(position>2400)position=0;
+	position+=800;
+	if(position>3200)position=0;
 	arrow();
 });
 
